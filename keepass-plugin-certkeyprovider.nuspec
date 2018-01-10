@@ -38,7 +38,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <authors>Mark Buchler</authors>
     <!-- projectUrl is required for the community feed -->
     <projectUrl>https://keepass.info/plugins.html#certkeyprov</projectUrl>
-    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/95eb6c94e28d6b0ca0891f2d264716120b2b58ce/icons/keepass.png</iconurl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/95eb6c94e28d6b0ca0891f2d264716120b2b58ce/icons/keepass.png</iconUrl>
     <copyright>© 2017 Mark Buchler</copyright>
     <!-- If there is a license Url available, it is required for the community feed -->
     <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>

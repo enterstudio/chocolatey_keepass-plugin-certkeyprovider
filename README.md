@@ -2,7 +2,7 @@
 
 [Chocolatey](https://chocolatey.org/) package for the [KeePass](https://keepass.info/) 2.x plugin [ChocolateyCertKeyProvider](https://keepass.info/plugins.html#certkeyprov).
 
-## Reqirements
+## Requirements
 
 * Having [KeePass](https://keepass.info/) 2.x installed
 

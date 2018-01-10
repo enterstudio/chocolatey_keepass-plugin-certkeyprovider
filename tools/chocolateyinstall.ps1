@@ -54,7 +54,11 @@ if ($pluginPath.Count -eq 0) {
 # rename PLGX file so it is clear which plugins are managed via choco
 $chocoPlugin = Join-Path $pluginPath "$($packageName).plgx"
 Write-Verbose "Downloading to $chocoPlugin."
-Get-ChocolateyWebFile $packageName $chocoPlugin $url $url
+# see https://chocolatey.org/docs/helpers-get-chocolatey-web-file for API
+Get-ChocolateyWebFile $packageName $chocoPlugin $url
+
+# see https://chocolatey.org/docs/helpers-get-checksum-valid for API
+Get-ChecksumValid -File $chocoPlugin -CheckSum $checksum -ChecksumType $checksumType
 
 if ( Get-Process -Name "KeePass" `
                  -ErrorAction SilentlyContinue ) {
